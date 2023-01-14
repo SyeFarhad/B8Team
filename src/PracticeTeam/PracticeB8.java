@@ -16,8 +16,13 @@ public class PracticeB8 {
 			String[] names = {"Abdul", "Farid", "Ebad", "Farhad", "Milad", "Nargis"};
 			for (String name : names) {
 				System.out.println(name.toUpperCase());
-			
-
+		}
+		List<String> names = new ArrayList<>();
+		names.add("فرهاد");
+		names.add("فرید");
+		names.add("نرگس");
+		for (String name : names) {
+		    System.out.println(name);
 		}
 	}
 }
