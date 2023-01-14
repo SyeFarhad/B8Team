@@ -1,5 +1,8 @@
 package PracticeTeam;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class PracticeB8 {
 	public static void main(String[] args) {
 		
@@ -17,11 +20,11 @@ public class PracticeB8 {
 			for (String name : names) {
 				System.out.println(name.toUpperCase());
 		}
-		List<String> names = new ArrayList<>();
-		names.add("فرهاد");
-		names.add("فرید");
-		names.add("نرگس");
-		for (String name : names) {
+		List<String> str = new ArrayList<>();
+		str.add("فرهاد");
+		str.add("فرید");
+		str.add("نرگس");
+		for (String name : str) {
 		    System.out.println(name);
 		}
 	}
