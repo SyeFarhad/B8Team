@@ -29,5 +29,10 @@ public class PracticeB8 {
 		for (String name : str) {
 		    System.out.println(name);
 		}
+			int time = 8;
+			if ( time < 8)
+			System.out.println (" give me double coffee + redbul") ;
+			else
+			System.out. println(" work to exit ticket") ;
 	}
 }
