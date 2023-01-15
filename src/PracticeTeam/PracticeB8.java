@@ -6,17 +6,8 @@ import java.util.List;
 public class PracticeB8 {
 	public static void main(String[] args) {
 		
-		
-
-		int age = 44;
-		if (age == 45) {
-			System.out.println("true");
-		}else {
-			System.out.println("false");
-			
-		}
 		System.out.println("************************************");
-			String[] names = {"Abdul", "Farid", "Ebad", "Farhad", "Milad", "Nargis" , "Reyahana"};
+			String[] names = {"Abdul", "Farid", "Ebad", "Farhad", "Milad", "Nargis" , "Reyahana","Lesly"};
 			for (String name : names) {
 				System.out.println(name.toUpperCase());
 		}
@@ -33,6 +24,9 @@ public class PracticeB8 {
 			if ( time < 8)
 			System.out.println (" give me double coffee + redbul") ;
 			else
+			System.out. println(" work to exit ticket") ;
+			System.out.println("*****************%%%%%%%%%%%%%%%%%%%%%%%%%%");
+			
 			System.out. println(" work to exit ticket") ;
 	}
 }
