@@ -1,14 +1,34 @@
 package PracticeTeam;
 
+import java.util.ArrayList;
+
 public class Abdul {
 
 	public static void main(String[] args) {
-   int[] num = {-50, 130, 12345, 0, 500};
-   
-   int[] num2 =new int[] {-50, 120, 12345, 500};
-   int[] num3 = new int[5];
-   
-   System.out.println(num[3]);
+  ArrayList<String> city = new ArrayList<>();
+  
+  city.add("Knoxville");
+  city.add("Nashville");
+  city.add("Ashville");
+  city.add("New York City");
+  
+  
+  for (String str : city) {      // Enhanced for loop
+	System.out.println(str);
+}
+      for (int i = 0; i < city.size(); i++) {       // regular for loop
+		System.out.println(city);
 	}
-
+      
+      int j = 0;                 // while loop
+      while (j < city.size()) {
+		System.out.println(city.get(j));
+		
+	}
+      int k = 0;                 // do- while loop
+      do {
+		System.out.println(city.get(k));
+		k++;
+	} while (k < city.size());
+}
 }
