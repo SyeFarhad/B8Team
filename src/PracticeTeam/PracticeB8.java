@@ -26,5 +26,7 @@ public class PracticeB8 {
 			else
 			System.out. println(" work to exit ticket") ;
 			System.out.println("*****************%%%%%%%%%%%%%%%%%%%%%%%%%%");
+			
+			System.out. println(" work to exit ticket") ;
 	}
 }
