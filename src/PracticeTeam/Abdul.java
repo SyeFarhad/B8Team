@@ -12,6 +12,7 @@ public class Abdul {
 		city.add("Ashville");
 		city.add("New York City");
 		city.add("Virginia");
+		city.add("Florida");
 
 		for (String str : city) { // Enhanced for loop
 			System.out.println(str);
