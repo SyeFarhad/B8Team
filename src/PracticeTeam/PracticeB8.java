@@ -7,7 +7,7 @@ public class PracticeB8 {
 	public static void main(String[] args) {
 		
 		System.out.println("************************************");
-			String[] names = {"Abdul", "Farid", "Ebad", "Farhad", "Milad", "Nargis" , "Reyahana","Lesly"};
+			String[] names = {"Milad","Abdul", "Farid", "Ebad", "Farhad", "Milad", "Nargis" , "Reyahana","Lesly"};
 			for (String name : names) {
 				System.out.println(name.toUpperCase());
 		}
