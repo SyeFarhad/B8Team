@@ -25,5 +25,6 @@ public class PracticeB8 {
 			System.out.println (" give me double coffee + redbul") ;
 			else
 			System.out. println(" work to exit ticket") ;
+			System.out.println("*****************%%%%%%%%%%%%%%%%%%%%%%%%%%");
 	}
 }
