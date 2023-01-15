@@ -25,6 +25,15 @@ public class PracticeB8 {
 			System.out.println (" give me double coffee + redbul") ;
 			else
 			System.out. println(" work to exit ticket") ;
-			System.out.println("*****************%%%%%%%%%%%%%%%%%%%%%%%%%%");
+			
+			
+		
+		
+			int[] myArray = new int[] {1,2,3,4,5};
+			myArray[0] = 42;
+			for (int i = 0; i < myArray.length; i++) {
+			    System.out.println(myArray[i]);
+			}
+			
 	}
 }
