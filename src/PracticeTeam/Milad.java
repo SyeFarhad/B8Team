@@ -8,7 +8,7 @@ public class Milad {
 	}
 		
 		public static void multiple(int a, int b) {
-			
+			System.out.println("Nothing in my class");
 			
 		}
 
